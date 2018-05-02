@@ -1,11 +1,16 @@
 {
   "name": "geo",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.6.0"
+  },
   "description": "stupid website",
   "main": "src/app.js",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "express": "4.16.3",
+    "grunt-cli": "^1.2.0"
   },
   "devDependencies": {},
   "scripts": {
